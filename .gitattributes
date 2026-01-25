@@ -1,0 +1,2 @@
+checkpoints_new/summ_epoch_10/** filter=lfs diff=lfs merge=lfs -text
+checkpoints_new/head_epoch_5/** filter=lfs diff=lfs merge=lfs -text
