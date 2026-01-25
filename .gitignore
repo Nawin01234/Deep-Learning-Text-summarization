@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environments
+gpu-env/
+gpu-working-env/
+ml-env/
+venv/
+env/
+
+# Model Checkpoints (ไฟล์ใหญ่มาก)
+checkpoint_*/
+model_*/
+checkpoints_new/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Dataset cache (HuggingFace)
+.cache/
+datasets/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Keep only important files
+!workshop3.ipynb
+!*.json
+!*.txt
+!README.md
